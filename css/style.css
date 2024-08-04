@@ -1,0 +1,18 @@
+.super-p.show> .content{
+    display: block;
+}
+.super-p.hide> .content{
+    display: none;
+}
+.super-p.show> .show-link{
+    display: none;
+}
+.super-p.show> .hide-link{
+    display: none;
+}
+.super-p.hide> .show-link{
+    display: block;
+}
+.super-p.hide> .hide-link{
+    display: none;
+}

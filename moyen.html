@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/bootstrap5/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+ <div class="container">
+    <div class="row  justify-content-center">
+        <div class="col-sm-6">
+            <div class="form-group mb-3">
+                 <label for="">Note <small class="text-muted">(<span id="count">0</span>  notes saved)</small></label>
+                 <input type="number" class="form-control" id="moyen">
+                </div>
+                 <div class="form-group mb-3">
+                 <button class="btn btn-primary me-3" onclick="AjouterNotes()" >Ajouter</button>
+                 <button class="btn btn-success " onclick="calculMoyen()" >calculer</button>
+                 </div>
+                 <div class="form-group" id="show"></div>
+        </div>
+    </div>
+ </div>
+    
+
+
+
+
+
+
+
+
+
+
+ <script src="./vendor/bootstrap5/js/bootstrap.min.js"></script> 
+ <script src="./JS/appmoyen.js"></script>  
+</body>
+</html>
